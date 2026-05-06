@@ -21,7 +21,7 @@
 **Запуск explorer.exe через cmd:** 
 ![Запуск explorer.exe через cmd](5_start_explorer1.png)
 
-**Запуск explorer.exe через диспетчер задач:** 
+**Запуск explorer.exe через диспетчер задач:**         
 ![Запуск explorer.exe через диспетчер задач](6_start_explorer2.png)
 
 **Отслеживание выполнения explorer.exe через tasklist:** 
