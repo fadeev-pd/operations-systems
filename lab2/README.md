@@ -10,7 +10,7 @@
 **Завершение процесса notepad.exe:** 
 ![Завершение процесса notepad.exe](3_kill_notepad.png)
 
-**Запуск WordPad:** 
+**Запуск WordPad:**    
 ![Запуск WordPad](7_start_wordpad.png)
 
 **Отслеживание выполнения wordpad.exe с помощью tasklist:** 
