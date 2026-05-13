@@ -1,19 +1,13 @@
 #!/bin/bash
-echo $(date +%s) #выводим текущую дату
-
-echo "сообщение" #вывод сообщения
-
+echo $(date +%s)
+echo "сообщение" 
 read -p "hello, input your birdh yaer: " age
-
 year=$(date +%Y)
-
 if (( year - age >  17)); then
         echo "You are adult"
 else
         echo "You are not adult"
 fi
-
-
 
 read -p "Введите вашу фамилию: " lastname
 read -p "Введите дату рождения (дд.мм.гггг): " birthdate
@@ -27,5 +21,4 @@ age=$((current_year - year))
 if [[ $current_month -lt $month ]] || ([[ $current_month -eq $month ]] && [[ $current_day -lt $day ]]); then
     age=$((age - 1))
 fi
-
 echo "Привет, $lastname, тебе $age"
