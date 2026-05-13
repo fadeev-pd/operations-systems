@@ -1,11 +1,11 @@
 #!/bin/bash
-
-echo "Фадеев Павел"
+echo $(date +%s) #выводим текущую дату
+echo "Фадеев Павел" 
 
 read -p "Введите свой возраст: " age
 
 year=$(date +%Y)
-
+пщ
 if (( year - age >  17)); then
         echo "Ты совершеннолетний"
 else
