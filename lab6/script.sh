@@ -1,7 +1,7 @@
 #!/bin/bash
 echo $(date +%s)
 echo "сообщение" 
-read -p "hello, input your birdh yaer: " age
+read -p "hello, input your birdh year: " age
 year=$(date +%Y)
 if (( year - age >  17)); then
         echo "You are adult"
