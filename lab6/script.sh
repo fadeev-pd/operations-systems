@@ -1,18 +1,22 @@
-#!/bin/bash
-echo $(date +%s) #выводим текущую дату
-echo "Фадеев Павел" 
+!/bin/bash
 
-read -p "Введите свой возраст: " age
+current_date=$(date +"%Y-%m-%d") #выводим текущую дату
+echo $current_date
+
+echo "Фадеев Павел" #сообщение с текущей датой
+
+read -p "Введите год рождения: " age
 
 year=$(date +%Y)
-пщ
-if (( year - age >  17)); then
+
+if ((year - age >  17)); then
         echo "Ты совершеннолетний"
 else
         echo "Ты несовершеннолетний"
 fi
 
 
+#!/bin/bash
 
 read -p "Введите вашу фамилию: " lastname
 read -p "Введите дату рождения (дд.мм.гггг): " birthdate
@@ -29,3 +33,4 @@ fi
 
 #
 echo "Привет, $lastname, тебе $age"
+
