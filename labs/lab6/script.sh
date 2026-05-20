@@ -24,8 +24,8 @@ current_year=$(date +%Y)   #получения текущего года
 current_month=$(date +%m)   #получения текущего месца
 current_day=$(date +%d)   #получения текущего дня
 age=$((current_year - year)) 
-if [[ $current_month -lt $month ]] || ([[ $current_month -eq $month ]] && [[ $current_day -lt $day ]]); then
-    age=$((age - 1))   #вычисление возраста
+if (( 10#$current_month < 10#$month )) || (( 10#$current_month == 10#$month && 10#$current_day < 10#$day )); then
+    age=$((age - 1))
 fi
 
 #
